@@ -361,7 +361,7 @@ video {
     padding-bottom: 25px;
     text-align: center;
     color: white;
-    background-image: url('/Level-1/assets/images/cta-bg.jpg');
+    background-image: url('../images/cta-bg.jpg');
 }
 
 .thinks-btn {
