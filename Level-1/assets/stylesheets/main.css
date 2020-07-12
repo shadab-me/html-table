@@ -180,7 +180,7 @@ header{
      padding: 10px;
      color: white;
      box-shadow: 1px 1px 1px 1px rgba(103,110,118, .9);
-     text-transform: uppercases;
+     text-transform: uppercase;
  }
 
  /* prgaram */
@@ -236,7 +236,9 @@ header{
 
 .thinks{
     margin-top: 66px;
+    
     padding-top: 180px;
+    padding-bottom: 66px;
     text-align: center;
     color: white;
     background-image: url('/Level-1/assets/images/cta-bg.jpg');
