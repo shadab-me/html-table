@@ -29,7 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+
 }
 ol, ul {
 	list-style: none;
@@ -54,7 +56,9 @@ table {
 }
 
 /* typography */
-
+a{
+    text-decoration: none;
+}
 h1{
     font-size: 48px;
 }
@@ -66,7 +70,185 @@ h3{
 }
 p{
     font-size: 18px;
+    font-weight: 300;
 }
 
 /* typography end here */
 
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.orange{
+    color:hsl(9,83%,58%);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.col{
+    flex-direction: column;
+}
+.center{
+    text-align: center;
+}
+
+.p-20{
+    padding: 20px;
+}
+.align-center{
+    align-items: center;
+}
+
+/* navigation bar */
+header{
+    background-color: rgba(103,110,118, .9);
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    z-index: 2;
+}
+.nav{
+    text-transform: uppercase;
+}
+.nav li{
+    padding: 10px;
+    
+}
+
+
+ 
+.logo h3{
+    padding: 10px;
+    text-transform: uppercase;
+}
+.primary-nav li a{
+    color: white;
+
+}
+.active-link{
+    color: orange;
+}
+.sing-up{
+    background-color: orange;
+}
+ 
+  /* hero section */
+  .contain{
+      margin: 1300px;
+      margin: 0 auto;
+      position: relative;
+    }
+  video{
+      width: 100%;
+  }
+ .hero{
+    background-color: hsla(207,12%,32%, 0.8);
+    padding: 20px;
+    width: 100%;
+    height: 99.5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+ .main-title{
+    position: relative;
+    top: 320px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+
+ }
+ .main-title h1{
+     font-size: 72px;
+     padding: 30px;
+     
+ }
+
+ /* btn */
+ .btn{
+     background-color:hsl(9,83%,58%);
+     padding: 10px;
+     color: white;
+     box-shadow: 1px 1px 1px 1px rgba(103,110,118, .9);
+     text-transform: uppercases;
+ }
+
+ /* prgaram */
+ .program{
+     margin-top: 120px;
+     
+ }
+ .title{
+     text-align: center;
+     text-transform: uppercase;
+ }
+.program-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 25px;
+ }
+.program-text{
+    width: 60%;
+    margin: 0 auto;
+    padding: 25px;
+    margin-bottom: 66px;
+}
+.gold{
+    width: 48%;
+    margin: 5px;
+}
+.left{
+    width: 20%;
+}
+.right{
+    width: 80%;
+    padding: 25px;
+}
+.right h4{
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.right p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.right a{
+    margin-top: 20px;
+}
+.discover{
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+/* Thinks */
+
+.thinks{
+    margin-top: 66px;
+    padding-top: 180px;
+    text-align: center;
+    color: white;
+    background-image: url('/Level-1/assets/images/cta-bg.jpg');
+}
+
+.thinks-btn{
+    padding: 66px;
+}
+.think-heading h2{
+   font-size: 48px;
+   padding: 25px;
+}
+.think-text p{
+    line-height: 1.5;
+}
