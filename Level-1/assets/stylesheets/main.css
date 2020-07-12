@@ -130,6 +130,8 @@ header{
 .logo h3{
     padding: 10px;
     text-transform: uppercase;
+    color: white;
+    font-weight: 700;
 }
 .primary-nav li a{
     color: white;
@@ -181,8 +183,7 @@ header{
      background-color:hsl(9,83%,58%);
      padding: 10px;
      color: white;
-     box-shadow: 1px 1px 1px 1px rgba(103,110,118, .9);
-     text-transform: uppercase;
+      text-transform: uppercase;
  }
 /* section titles */
 .section-title{
@@ -263,10 +264,10 @@ header{
 
 
 .col-40{
-    width: 40%;
+    width: 38%;
 }
 .col-60{
-width: 60%;
+width: 58%;
 }
 .col-60 img{
     border-radius: 10px;
@@ -283,12 +284,34 @@ line-height: 1.3;
 margin-bottom: 30px;
 margin-top: 10px;
 }
+.col-60 .btn{
+    padding: 20px;
+    font-weight: 300;
+}
 .col-40{
     font-weight: 700;
     color: rgb(92, 91, 91);
 }
+.col-40 .btn{
+padding: 25px;
+width: 420px;
+  
+}
+.col-40 ul{
+    margin-bottom: 66px;
+}
 
-
+.col-40 ul li{
+    padding: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 5px rgba(59,59,59, .11);
+    margin-bottom: 30px;
+    border-radius: 5px;
+ }
+ 
+ .col-40 ul li h3{
+     margin-left: 20px;
+ }
 /* classes */
 
 .classes{
