@@ -160,6 +160,8 @@ header{
     top: 0;
     right: 0;
  }
+
+
  .main-title{
     position: relative;
     top: 320px;
@@ -182,7 +184,18 @@ header{
      box-shadow: 1px 1px 1px 1px rgba(103,110,118, .9);
      text-transform: uppercase;
  }
-
+/* section titles */
+.section-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 25px;
+}
+.section-text{
+    width: 60%;
+    margin: 0 auto;
+    padding: 25px;
+    margin-bottom: 66px;
+}
  /* prgaram */
  .program{
      margin-top: 120px;
@@ -192,17 +205,8 @@ header{
      text-align: center;
      text-transform: uppercase;
  }
-.program-title{
-    text-transform: uppercase;
-    font-weight: 700;
-    padding: 25px;
- }
-.program-text{
-    width: 60%;
-    margin: 0 auto;
-    padding: 25px;
-    margin-bottom: 66px;
-}
+ 
+ 
 .gold{
     width: 48%;
     margin: 5px;
@@ -235,10 +239,9 @@ header{
 /* Thinks */
 
 .thinks{
-    margin-top: 66px;
-    
-    padding-top: 180px;
-    padding-bottom: 66px;
+    margin-top: 120px;
+    padding-top: 66px;
+    padding-bottom: 25px;
     text-align: center;
     color: white;
     background-image: url('/Level-1/assets/images/cta-bg.jpg');
@@ -250,7 +253,44 @@ header{
 .think-heading h2{
    font-size: 48px;
    padding: 25px;
+   text-transform: uppercase;
 }
 .think-text p{
-    line-height: 1.5;
+    line-height: 1.9;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.col-40{
+    width: 40%;
+}
+.col-60{
+width: 60%;
+}
+.col-60 img{
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.col-60 h3{
+    font-weight: 700;
+     color: rgb(92, 91, 91);
+}
+.col-60 p{
+font-weight: 300;
+line-height: 1.3;
+margin-bottom: 30px;
+margin-top: 10px;
+}
+.col-40{
+    font-weight: 700;
+    color: rgb(92, 91, 91);
+}
+
+
+/* classes */
+
+.classes{
+margin-top: 66px;
 }
